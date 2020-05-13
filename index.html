@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-	
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    
-	<frameset rows="18%,*" frameborder="0">
-	<frame src="header.html" name="head">
-	<frameset cols="41%,*">
-	<frame src="left.html" name="left">
-	<frame src="body.html" name="body">
-	</frameset>
+    <title>Календарь</title>
+
+    <frameset rows="6%,*" frameborder="0" noresize>
+        <frame src="Month.html"  name="frame_top">
+            <frameset cols="23%,*"> 
+                <frame src="1_January.html"   name="frame_days">
+                <frame src="Desc.html"  name="frame_description">
+            </frameset>
+    </frameset>
 </head>
 </html>

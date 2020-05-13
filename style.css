@@ -1,65 +1,183 @@
+div
+{
+    text-align: center;
+    color: white;
+}
+
 body
 {
-	background: #daf0fe
+    background: black;
 }
 
-.header
-{	
-	text-align: center;
-	margin-left: 5%;
-	margin-top: 30px;
-}
-
-.header_img
+.table_month>table>td
 {
-	width: 45%;	
+    border-collapse: collapse;
 }
 
-.left
+.table_days
 {
-	text-align: center;
-	/* border: solid red 3px; */
-	width: 200px;
-	margin-left: 75%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: rgba(12, 22, 172, 0.5);
 }
 
-h4
+.table_days>table
 {
-		text-align: center;
-		margin-bottom: 0px;
-		margin-top: 15px;
+    width: 300px;
+    height: 200px;
 }
 
-.div_1
+.name_month
 {
-	text-align: center;
-	/* border: solid red 3px; */
-	width: 600px;
+    padding-bottom: 10px;
 }
 
-.auth>div>input
+td>a
+{
+    color: white;
+}
+
+a
+{
+    text-decoration: none;  
+}
+
+.weekends
+{
+    background: red;
+}
+
+.holidays
+{
+    background: blue;
+}
+
+.jan1
+{
+    width: 80%;
+}
+
+.jan7
+{
+    width: 80%;
+}
+
+.feb14
+{
+    width: 80%;
+}
+
+.feb23
+{
+    width: 75%;
+}
+
+.march8
+{
+    width: 80%;
+}
+
+.may1
+{
+    width: 80%;
+}
+
+.may9
+{
+    width: 80%;
+}
+
+.jun1
+{
+    width: 30%;
+}
+
+.jun12
+{
+    width: 80%;
+}
+
+.jul9
+{
+    width: 80%;
+}
+
+.sep26
 {
     width: 55%;
 }
 
-.auth_form
+.nov4
 {
-	text-align: right;
-	margin-left: -10px;
-	padding-right: 20px;
-	line-height: 25px;
+    width: 80%;
 }
 
-.enter
+
+h1
 {
-	margin-top: 5px;
-	margin-bottom: 15px;
+    text-align: center;
+    color: grey;
 }
 
-.list
+.dota1
 {
-	margin-bottom: 15px;
-	text-align: left;
-	margin-left: 30px;
-	margin-top: 15px;
+    width: 80%;
+}
+
+.dota2
+{
+    width: 83%;
+}
+
+.dota3
+{
+    width: 70%;
+}
+
+.dota4
+{
+    width: 75%;
+}
+
+.dota5
+{
+    width: 75%;
+}
+
+.dota6
+{
+    width: 75%;
+}
+
+.dota7
+{
+    width: 75%;
+}
+
+.dota8
+{
+    width: 75%;
+}
+
+.dota9
+{
+    width: 75%;
+}
+
+.dota10
+{
+    width: 75%;
+}
+
+.dota11
+{
+    width: 75%;
+}
+
+.dota12
+{
+    width: 75%;
 }
